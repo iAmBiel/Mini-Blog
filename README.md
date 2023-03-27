@@ -23,19 +23,19 @@ Here are the technologies used in this project.
 
 ### 1 - XXXXXXXXXXXXXXX
 
-![1](https://user-images.githubusercontent.com/107372647/228011427-a51c4f86-3155-46e5-83cd-62a1bbedfe49.jpg)
+![1](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
 ### 2 - XXXXXXXXXXXXXX
 
-![2](https://user-images.githubusercontent.com/107372647/228011427-a51c4f86-3155-46e5-83cd-62a1bbedfe49.jpg)
+![2](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
 ### 3 - XXXXXXXXXXXXXXXX
 
-![3](https://user-images.githubusercontent.com/107372647/228011427-a51c4f86-3155-46e5-83cd-62a1bbedfe49.jpg)
+![3](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
 ### 4 - XXXXXXXXXXXXXXXXX
 
-![4](https://user-images.githubusercontent.com/107372647/228011427-a51c4f86-3155-46e5-83cd-62a1bbedfe49.jpg)
+![4](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
 ## Features
 
