@@ -37,25 +37,13 @@ Here are the technologies used in this project.
 
 ![4](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
-## Features
-
-The main features of the application are:
- - xxxxxxx.
- - xxxxxxxx.
-
-
 ## Links
   - Deploy on XXXXXX:
   - Repository: XXXXXXXXXXXX
 
-  ## Versioning
+## Authors
 
-  1.0.0.0
+* **Gabriel Vieira Marques** 
 
-
-  ## Authors
-
-  * **Gabriel Vieira Marques** 
-
-  Please follow github and join us!
-  Thanks to visiting me and good coding!
+Please follow github and join us!
+Thanks to visiting me and good coding!
