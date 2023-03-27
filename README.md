@@ -1,4 +1,4 @@
-![Logo of the project](https://user-images.githubusercontent.com/107372647/228011427-a51c4f86-3155-46e5-83cd-62a1bbedfe49.jpg)
+![Logo of the project](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
 
 ## Mini Blog
