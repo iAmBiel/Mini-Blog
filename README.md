@@ -39,7 +39,6 @@ Here are the technologies used in this project.
 
 ## Links
   - Deploy on XXXXXX:
-  - Repository: XXXXXXXXXXXX
 
 ## Authors
 
