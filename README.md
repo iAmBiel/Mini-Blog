@@ -44,5 +44,5 @@ Here are the technologies used in this project.
 
 * **Gabriel Vieira Marques** 
 
-Please follow github and join us!
+Please follow github!
 Thanks to visiting me and good coding!
