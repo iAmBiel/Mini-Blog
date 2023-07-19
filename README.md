@@ -33,7 +33,7 @@ Here are the technologies used in this project.
 
 ![3](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
-### 4 - XXXXXXXXXXXXXXXXX
+### 4 - XXXXXXXXXXXXXXXX
 
 ![4](https://user-images.githubusercontent.com/107372647/228012439-92acc8e3-1af9-4b55-a49b-19510895bd64.jpg)
 
