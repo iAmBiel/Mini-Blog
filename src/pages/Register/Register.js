@@ -1,7 +1,7 @@
-import styles from './Register.module.css'
+import styles from "./Register.module.css";
 
 import { useEffect, useState } from "react";
-import { useAuthentication } from '../../hooks/useAuthentication';
+import { useAuthentication } from "../../hooks/useAuthentication";
 
 const Register = () => {
   const [displayName, setDisplayName] = useState("");
@@ -27,8 +27,8 @@ const Register = () => {
       setError("As senhas precisam ser iguais.");
       return;
     }
-    
-    const res = await createUser(user)
+
+    const res = await createUser(user);
 
     console.log(res);
   };
@@ -42,7 +42,7 @@ const Register = () => {
   return (
     <div className={styles.register}>
       <h1>Cadastre-se para postar</h1>
-      <p>Crie sua conta e compartilhe suas histórias</p>
+      <p>Crie seu usuário e compartilhe suas histórias</p>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Nome:</span>
@@ -88,7 +88,7 @@ const Register = () => {
             value={confirmPassword}
           />
         </label>
-        {!loading && <button className="btn">Cadastrar</button>}
+        {!loading && <button className="btn">Entrar</button>}
         {loading && (
           <button className="btn" disabled>
             Aguarde...
@@ -97,7 +97,7 @@ const Register = () => {
         {error && <p className="error">{error}</p>}
       </form>
     </div>
-  )
-}
+  );
+};
 
 export default Register;

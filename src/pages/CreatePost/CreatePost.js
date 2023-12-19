@@ -12,11 +12,11 @@ const CreatePost = () => {
   const [tags, setTags] = useState([]);
   const [formError, setFormError] = useState("");
 
-  const {user} = useAuthValue()
-
-  const {insertDocument, response} = useInsertDocument("posts");
+  const { user } = useAuthValue();
 
   const navigate = useNavigate();
+
+  const { insertDocument, response } = useInsertDocument("posts");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,20 +37,30 @@ const CreatePost = () => {
       setFormError("Por favor, preencha todos os campos!");
     }
 
-    if(formError) return;
+    console.log(tagsArray);
+
+    console.log({
+      title,
+      image,
+      body,
+      tags: tagsArray,
+      uid: user.uid,
+      createdBy: user.displayName,
+    });
+
+    if(formError) return
 
     insertDocument({
       title,
       image,
       body,
-      tagsArray,
+      tags: tagsArray,
       uid: user.uid,
-      createdBy: user.displayName
+      createdBy: user.displayName,
     });
 
     // redirect to home page
     navigate("/");
-    
   };
 
   return (
@@ -62,7 +72,7 @@ const CreatePost = () => {
           <span>Título:</span>
           <input
             type="text"
-            name="title"
+            name="text"
             required
             placeholder="Pense num bom título..."
             onChange={(e) => setTitle(e.target.value)}
@@ -101,7 +111,7 @@ const CreatePost = () => {
             value={tags}
           />
         </label>
-        {!response.loading && <button className="btn">Criar post</button>}
+        {!response.loading && <button className="btn">Criar post!</button>}
         {response.loading && (
           <button className="btn" disabled>
             Aguarde.. .
@@ -112,7 +122,7 @@ const CreatePost = () => {
         )}
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default CreatePost
+export default CreatePost;
